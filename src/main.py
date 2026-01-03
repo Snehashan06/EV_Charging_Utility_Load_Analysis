@@ -8,9 +8,9 @@ import os
 import datetime
 import requests
 import json
-from Function_EIA_API_call_by_Demand_Net_Gen import get_EIA_data_demand
-from Function_EIA_API_call_by_Energy_Source import get_EIA_data_energy_source
-from Function_dynamic_demand_analysis import get_demand_analysis
+from src.Function_EIA_API_call_by_Demand_Net_Gen import get_EIA_data_demand
+from src.Function_EIA_API_call_by_Energy_Source import get_EIA_data_energy_source
+from src.Function_dynamic_demand_analysis import get_demand_analysis
 
 # ********************************************    Get the data from EIA *******************************
 # String for Hourly Demand, Demand Forecast, Generation and Interchange is /region-date/
